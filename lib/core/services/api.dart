@@ -37,7 +37,7 @@ class Api {
   }
 
   Future<ItemResponseModel> getItems() async {
-    String url = variantOneEndpoint;
+    String url = wireCharacterEndpoint;
     print("url : $url");
     final stopwatch = Stopwatch()..start();
     try {
